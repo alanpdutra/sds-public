@@ -1,0 +1,22 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-tn0RQdqM.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-pE1sA2DQ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-tn0RQdqM.css"
+    ]
+  },
+  "resources/js/masks.js": {
+    "file": "assets/masks-CqGGGyZE.js",
+    "name": "masks",
+    "src": "resources/js/masks.js",
+    "isEntry": true
+  }
+}

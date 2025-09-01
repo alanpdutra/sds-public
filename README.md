@@ -30,6 +30,24 @@ O comando `make setup` irá:
 - Instalar dependências do NPM
 - Compilar os assets
 
+## Configuração da APP_KEY
+
+Se você precisar gerar uma nova chave de aplicação:
+
+```bash
+# Copie o arquivo de exemplo
+cp .env.example .env
+
+# Gere a chave da aplicação
+docker-compose exec laravel.test php artisan key:generate
+
+# OU usando o Makefile
+make shell
+php artisan key:generate
+```
+
+A APP_KEY é essencial para criptografia e sessões do Laravel.
+
 ## Acesso à Aplicação
 
 Após o setup:
